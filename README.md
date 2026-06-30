@@ -82,3 +82,38 @@ This repo includes automated checks (`.github/workflows/classroom.yml`) that ver
 - no virtual environment was committed
 
 These checks cover the mechanical parts of the assignment. Your README explanations and homework answers are graded separately by your instructor.
+
+
+#Answers to Classwork
+#Question
+README updated with a short note on what `name=` does for a URL and why it's useful:
+
+#ANSWER
+In web URLs, name= is a query parameter. It is used to pass a specific piece of data—in this case, a person's name, a product name, or a file name—from the user's browser to the website's server AND it is useful because it helps personalize user experience, it also helps in tracking and filterring because the name = is used as the subject for tracking. lastly it helps in searching most especially where we have a large database, we cant just keep reading evrything one by one and so using this name= makes it eassier for us because we have already given it an identity.
+
+## Homework Questions (answer in your README)
+
+1. In your own words, explain the difference between a project and an app.
+
+# ANSWWER
+A project in my words refers to the collection of apps that enables the functionality of a website or app while an app is more like the diferent sections of the project that performs specific tasks in the wwebsite or app.
+
+2. What command creates a new Django app?
+
+# Answer 
+python manage.py startapp <name of your app>
+
+
+3. Why do we register an app inside `INSTALLED_APPS`?
+
+# Answer
+we register the app inside the install app because that is the only way django can recognize that an app was installed.
+
+4. What does giving a URL a `name=` actually let you do later?
+
+# Answer
+it lets you reference that specific URL throughout your project by its "nickname" rather than hardcoding the actual path
+
+
+
+
